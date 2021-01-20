@@ -6,11 +6,9 @@ if(isset($_GET['debug']) && $_GET['debug']==true) {
 	error_reporting(E_ALL);
 }
 
-/*Load all libraries in composee*/
 require_once __DIR__ . '/vendor/autoload.php';
 
 
-/*Load all files extensions .php in __DIR_ folder*/
 foreach (glob("classes/*.php") as $filename)
 {
     include $filename;

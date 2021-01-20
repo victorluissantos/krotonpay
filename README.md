@@ -1,7 +1,7 @@
 ## Integrador Krotonpay
-
-### Documentação Krotonpay
-https://dev-kp-lb-1088104097.us-east-1.elb.amazonaws.com/swagger/index.html
+API de integração com Kroton Pay, api de pagamentos
+<b>Problema:</b>b>
+Ao realizar o curl para a kroton, precisamos informar atributos que não estão disponíveis em versõe mais antigas do PHP, versões anteriores a 7, com isso, utilizando a api, pode colocar a kroton para rodar em um abiente com PHP superior a 7, e manter a aplicação no ambiente inferior, realizando solicitação para a pi da Kroton.
 
 ### Install
 Acesse a pasta do projeto via terminal, execute o comando: `composer update`
